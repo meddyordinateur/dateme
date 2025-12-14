@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Date me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <video id="video" autoplay playsinline></video>
+
+  <div id="overlay">
+    <div id="timer">
+  <svg width="80" height="80">
+    <circle
+      cx="40"
+      cy="40"
+      r="36"
+      stroke="rgba(255,255,255,0.2)"
+      stroke-width="6"
+      fill="none"
+    />
+    <circle
+      id="timer-circle"
+      cx="40"
+      cy="40"
+      r="36"
+      stroke="#ffffff"
+      stroke-width="6"
+      fill="none"
+      stroke-linecap="round"
+      transform="rotate(-90 40 40)"
+    />
+  </svg>
+</div>
+
+    <div id="choices"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

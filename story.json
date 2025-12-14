@@ -1,0 +1,239 @@
+{
+  "start": "scene_1",
+
+  "scenes": {
+    "scene_1": {
+      "video": "clips/1.mp4",
+      "at": 11.0,
+      "choices": [
+        { "text": "Rien de grave j'espère?", "next": "scene_2a" },
+        { "text": "ça se fait pas franchement....", "next": "scene_2b" }
+      ]
+    },
+
+    "scene_2a": {
+      "video": "clips/2a.mp4",
+      "at": 7.0,
+      "choices": [
+        { "text": "Ok, pas de problème", "next": "scene_3a" },
+        { "text": "Et c'est quoi ce boulot..?", "next": "scene_3b" }
+      ]
+    },
+    "scene_2b": {
+      "video": "clips/2b.mp4",
+      "at": 7.0,
+      "choices": [
+        { "text": "Mais non t'inquiète ;)", "next": "scene_3a" },
+        { "text": "Ben ouais...", "next": "scene_3c" }
+      ]
+    },
+    "scene_3a": {
+      "video": "clips/3a.mp4",
+      "at": 6.0,
+      "choices": [
+        { "text": "Suite à mes divers essais philosophiques à succès je suis amené.e à voyager un peu partout dans le monde pour donner des conférences. ", "next": "scene_4a" },
+        { "text": "Oh, tu sais, on est là...", "next": "scene_4a" }
+      ]
+    },
+    "scene_3b": {
+      "video": "clips/3b.mp4",
+      "at": 8.0,
+      "choices": [
+        { "text": "Je ne te connais pas", "next": "scene_4b" },
+        { "text": "Je te connais !", "next": "scene_4c" }
+      ]
+    },
+    "scene_3c": {
+      "video": "clips/3c.mp4",
+      "at": 10.0,
+      "choices": [
+        { "text": "Paie-moi un verre ;)", "next": "scene_4d" },
+        { "text": "(vulgaire) Ton excuse tu peux te la foutre dans le cul.", "next": "ending_1" }
+      ]
+    },
+    "scene_4a": {
+      "video": "clips/4a.mp4",
+      "next": "scene_4e"
+     },
+    "scene_4b": {
+      "video": "clips/4b.mp4",
+      "at": 12.0,
+      "choices": [
+        { "text": "Ouaaah, mais t'es une star??", "next": "scene_5a" },
+        { "text": "Pour qui tu te prends? Gros naze!", "next": "scene_5b" }
+      ]
+    },
+    "scene_4c": {
+      "video": "clips/4c.mp4",
+      "at": 10.0,
+      "choices": [
+        { "text": "Euuuuuuuh...", "next": "scene_5c" }
+        
+      ]
+    },
+    "scene_4d": {
+      "video": "clips/4d1.mp4",
+      "next": "scene_4e"
+    },
+
+    "scene_4e": {
+      "video": "clips/4d2.mp4",
+      "at": 4.0,
+      "choices": [
+        { "text": "Oh, la même chose que toi", "next": "scene_5d" },
+        { "text": "Un café", "next": "scene_5e" }
+      ]
+    },
+    "scene_5a": {
+      "video": "clips/5a.mp4",
+      "at": 7.0,
+      "choices": [
+        { "text": "Déjà que tu es super beau gosse..!", "next": "scene_6a" }
+      ]
+    },
+    "scene_5b": {
+      "video": "clips/5b.mp4",
+      "next": "scene_1"
+     },
+
+      "scene_5c": {
+      "video": "clips/5c.mp4",
+      "at": 13.0,
+      "choices": [
+        { "text": "Désolé.e, tu es si beau que je n'ai pas voulu te vexer...", "next": "scene_6a" },
+        { "text": "Je plaide coupable, jamais entendu parler!", "next": "scene_4b" }
+      ]
+    },
+    "scene_5d": {
+      "video": "clips/5d.mp4",
+     "next": "scene_4e" 
+  
+    },
+    "scene_5e": {
+      "video": "clips/5e.mp4",
+      "at": 24.5,
+      "choices": [
+        { "text": "Oh, ça ne fait rien..! Tu en as un peu sur le coin de la bouche, laisse moi t'essuyer à mon tour...", "next": "scene_6b" },
+        { "text": "Tu pourrais faire plus attention!!!", "next": "scene_6c" }
+      ]
+    },
+   "scene_6a": {
+      "video": "clips/6a.mp4",
+      "at": 8.0,
+      "choices": [
+        { "text": "(drague lourde) Trêve de flatteries. Passons aux choses sérieuses...", "next": "ending_1" },
+        { "text": "Ah oui, tu veux dire que je te plais?", "next": "scene_7a" }
+      ]
+    },
+    "scene_6b": {
+      "video": "clips/6b.mp4",
+      "at": 11.0,
+      "choices": [
+        { "text": "Je suis d'accord avec toi. Le courrant passe vraiment bien entre nous.", "next": "scene_7a" },
+        { "text": "Tu vas un peu vite!", "next": "scene_7b" }
+      ]
+    },
+    "scene_6c": {
+      "video": "clips/6c.mp4",
+      "at": 18.5,
+      "choices": [
+        { "text": "ça va... tu es maladroit mais tu restes sympathique.", "next": "scene_7c" },
+        { "text": "(fuire)", "next": "ending_3" }
+      ]
+    },
+    "scene_7a": {
+      "video": "clips/7a.mp4",
+      "at": 13.5,
+      "choices": [
+        { "text": "Moi aussi...", "next": "ending_2" },
+        { "text": "Tu vas un peu vite!", "next": "scene_7b" }
+      ]
+    },
+    "scene_7b": {
+      "video": "clips/7b.mp4",
+      "at": 11.0,
+      "choices": [
+        { "text": "(Recaler et partir)", "next": "ending_3" },
+        { "text": "ça ne fait rien, ça arrive... :)", "next": "scene_7c" }
+      ]
+    },
+    "scene_7c": {
+      "video": "clips/7c.mp4",
+      "at": 10.0,
+      "choices": [
+        { "text": "Toi aussi tu es très charmant.", "next": "scene_4d" },
+        { "text": "[...]", "next": "scene_8" }
+      ]
+    },
+    "scene_8": {
+      "video": "clips/8.mp4",
+      "at": 10.0,
+      "choices": [
+        { "text": "[...]", "next": "scene_9" }
+      ]
+    },
+    "scene_9": {
+      "video": "clips/9.mp4",
+      "at": 7.0,
+      "choices": [
+        { "text": "[...]", "next": "scene_10" }
+      ]
+    },
+    "scene_10": {
+      "video": "clips/10.mp4",
+      "at": 5.0,
+      "choices": [
+        { "text": "[...]", "next": "scene_11" }
+      ]
+    },
+    "scene_11": {
+      "video": "clips/11.mp4",
+      "at": 7.0,
+      "choices": [
+        { "text": "Oui tranquille", "next": "ending_4" },
+        { "text": "Non", "next": "scene_6c" }
+      ]
+    },
+    
+    "ending_1": {
+      "video": "clips/f1.mp4",
+      "at": 7.0,
+      "text": "C'est l'amour fou! Vous êtes faits l'un pour l'autre!",
+      "choices": [
+        {"text": "Nouvelle Aventure", "next": "scene_1"}
+      ],
+      "end": true
+    },
+     "ending_2": {
+      "video": "clips/f2.mp4",
+       "at": 29.0,
+      "text": "C'est l'amour fou! Vous êtes faits l'un pour l'autre!",
+      "choices": [
+        {"text": "Nouvelle Aventure", "next": "scene_1"}
+      ],
+      "end": true
+    },
+     "ending_3": {
+      "video": "clips/f3.mp4",
+       "at": 7.0,
+      "text": "C'est l'amour fou! Vous êtes faits l'un pour l'autre!",
+      "choices": [
+        {"text": "Nouvelle Aventure", "next": "scene_1"}
+      ],
+      "end": true
+    },
+     "ending_4": {
+      "video": "clips/f4.mp4",
+       "at": 36.0,
+      "text": "C'est l'amour fou! Vous êtes faits l'un pour l'autre!",
+      "choices": [
+        {"text": "Nouvelle Aventure", "next": "scene_1"}
+      ],
+      "end": true
+    }
+  }
+ 
+ 
+ }
+  
+
