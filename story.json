@@ -167,21 +167,21 @@
     },
     "scene_8": {
       "video": "clips/8.mp4",
-      "at": 10.0,
+      "at": 12.0,
       "choices": [
         { "text": "[...]", "next": "scene_9" }
       ]
     },
     "scene_9": {
       "video": "clips/9.mp4",
-      "at": 7.0,
+      "at": 12.0,
       "choices": [
         { "text": "[...]", "next": "scene_10" }
       ]
     },
     "scene_10": {
       "video": "clips/10.mp4",
-      "at": 5.0,
+      "at": 10.0,
       "choices": [
         { "text": "[...]", "next": "scene_11" }
       ]
@@ -236,5 +236,6 @@
  
  }
   
+
 
 
