@@ -138,7 +138,7 @@
       "at": 18.5,
       "choices": [
         { "text": "ça va... tu es maladroit mais tu restes sympathique.", "next": "scene_7c" },
-        { "text": "(fuire)", "next": "ending_3" }
+        { "text": "(fuir!)", "next": "ending_3" }
       ]
     },
     "scene_7a": {
@@ -236,4 +236,5 @@
  
  }
   
+
 
